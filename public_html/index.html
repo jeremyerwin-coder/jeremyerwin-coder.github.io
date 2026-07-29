@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Erwin's Page - Argyle High School</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            color: #333;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .hero {
+            background-color: #cccccc;
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+        .btn {
+            background-color: #ecc94b;
+            color: #1a365d;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 28px;
+            color: #1a365d;
+        }
+        .courses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .course-card {
+            background: #444444;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .course-card h3 {
+            color: #ff0000;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #ff0000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Mr. Erwin's Page - Argyle High School</div>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./classes.html">Classes</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Welcome to Mr. Erwin's Page</h1>
+        <p>Here you will find everything you need for Mr. Erwin's classes.</p>
+        <a href="#classes" class="btn">Explore Classes</a>
+    
+
+    <div class="container" id="classes">
+        <h2 class="section-title">Classes</h2>
+        <div class="courses-grid">
+            <div class="course-card">
+                <h3>AP Computer Science Principles</h3>
+                <p>Build real-world skills in programming, algorithms, and computational thinking.</p>
+            </div>
+            <div class="course-card">
+                <h3>Biology</h3>
+                <p>Discover the science of life — from cells and genetics to evolution and ecosystems.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 JerwinScience. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
